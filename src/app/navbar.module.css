@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+    /* position: fixed; */
+    top: 0px;
+    /* z-index: 11; */
+    /* padding: 0px 50px; */
+  }
+  .logo{
+    margin-left: 50px;
+  }
+  .navItems{
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+  }
+  .navItems li{
+    margin-left: 30px;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: #ff6d24;
+  }
