@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import Navbar from './navbar'
-import Header from './header'
-import AboutMe from './aboutMe'
+import Navbar from '../module/navbar/navbar'
+import Header from '../module/header/header'
+import AboutMe from '../module/aboutme/aboutMe'
 export default function Home() {
   return (
     <main className={styles.main}>
