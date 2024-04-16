@@ -1,31 +1,154 @@
-.navbar{
+.navbar {
+  background-color: var(--bgColor2);
+  padding: 10px 20px;
+  /* max-height: 80px; */
+  font-family: var(--Inter);
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.navbarRight {
+  display: flex;
+  align-items: center;
+}
+
+.navbarToggle {
+  display: none;
+}
+
+.navbarLinks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbarLinks li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* .navbarLinks li:last-child {
+  margin-right: 0;
+} */
+
+.navbarText {
+  text-decoration: none;
+  color: var(--fontColor1);
+  position: relative;
+}
+
+.navbarText::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: var(--fontColor1);
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -2px;
+}
+
+.navbarText:hover::after,
+.navbarText:focus::after,
+.navbarText:active::after {
+  width: 100%;
+}
+
+/* .resumeButton {
+  color: var(--fontColor2);
+} */
+
+.resumeButton {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid var(--fontColor1);
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: var(--fontColor1);
+  cursor: pointer;
+  display: inline-block;
+  line-height: normal;
+  margin: 0;
+  /* min-height: 60px; */
+  min-width: 0;
+  outline: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.resumeButton:disabled {
+  pointer-events: none;
+}
+
+.resumeButton:hover {
+  color: var(--fontColor4);
+  background-color: var(--fontColor1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.resumeButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+@media (max-width: 768px) {
+  .navbar {
+    /* max-height: 40px; */
+  }
+
+  .navbarToggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbarLinks {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 0%;
+    background-color: var(--bgColor1);
+    /* padding: 0px 0px; */
+    /* z-index: 100; */
     width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .navbarLinks.active {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    margin: 0px;
-    padding: 0px;
-    font-size: 1.5rem;
-    background-color: red;
-    /* position: fixed; */
-    top: 0px;
-    /* z-index: 11; */
-    /* padding: 0px 50px; */
+    height: auto;
   }
-  .logo{
-    margin-left: 50px;
+
+  .navbarLinks li {
+    text-align: center;
+    margin-right: 0px;
+    padding: 20px 0px;
   }
-  .navItems{
-    list-style: none;
-    display: flex;
-    margin-right: 50px;
-  }
-  .navItems li{
-    margin-left: 30px;
-  }
-  
-  .navbar a{
-    text-decoration: none;
-    color: #ff6d24;
-  }
+}
