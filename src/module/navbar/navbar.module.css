@@ -122,6 +122,7 @@
 @media (max-width: 768px) {
   .navbar {
     /* max-height: 40px; */
+    z-index: inherit;
   }
 
   .navbarToggle {
@@ -133,9 +134,9 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 40px;
+    top: 70px;
     right: 0%;
-    background-color: var(--bgColor1);
+    background-color: var(--bgColor2);
     /* padding: 0px 0px; */
     /* z-index: 100; */
     width: 100%;

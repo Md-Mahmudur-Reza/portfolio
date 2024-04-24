@@ -1,0 +1,82 @@
+.aboutmeSection {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+.title {
+  font-size: clamp(30px, 5vw, 40px);
+  font-weight: 600;
+  color: var(--fontColor1);
+  border-bottom: 1px solid var(--fontColor1);
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+.detail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.detailsection {
+  flex: 1;
+  max-width: 50%;
+  color: var(--fontColor2);
+  font-family: var(--Inter);
+  font-size: 16px;
+  font-weight: 500;
+}
+.section {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.techlist {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 20px;
+}
+.techitem {
+  break-inside: avoid-column;
+  margin-bottom: 10px;
+}
+.techitem::before {
+  content: "-";
+  margin-right: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--fontColor1);
+  line-height: 12px;
+}
+.imagesection {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.image {
+  max-width: 70%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .detailsection {
+    max-width: 80%;
+  }
+  .detail {
+    flex-direction: column;
+  }
+
+  .imagesection {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}

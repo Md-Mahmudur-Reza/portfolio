@@ -1,26 +1,36 @@
-.headerSection {
-  background-color: yellow;
+.heroSection {
+  background-color: var(--bgColor1);
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   height: calc(100vh - 70px);
   width: 100%;
-  /* display: flex; */
+  color: var(--fontColor2);
+  font-family: var(--Inter);
+  font-size: 20px;
+  font-weight: 500;
 }
-.innerHeaderSection {
+.innerheroSection {
   background-color: white;
   padding: 30px 0px;
   width: 70%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .nameText {
   font-size: clamp(40px, 8vw, 80px);
   font-weight: 600;
-  color: #002244;
+  color: var(--fontColor1);
 }
 .profText {
   font-size: clamp(40px, 8vw, 80px);
   font-weight: 600;
-  color: #162738;
+  color: var(--fontColor1);
+}
+
+.detailsText {
+  /* background-color: red; */
+  width: 80%;
 }

@@ -1,12 +1,12 @@
 import styles from "./page.module.css";
 import Navbar from "../module/navbar/navbar";
-import Header from "../module/header/header";
+import Herosection from "../module/herosection/herosection";
 import AboutMe from "../module/aboutme/aboutMe";
 export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar />
-      <Header />
+      <Herosection />
       <AboutMe />
 
       <div className={styles.socialMedia}></div>

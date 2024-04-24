@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
-.main{
-  background: #e2ded3;
-  color:#4e413b;
-  font-family: 'Poppins',sans-serif;
+.main {
   padding: 0px;
   margin: 0px;
 }
