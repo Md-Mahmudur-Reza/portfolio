@@ -1,6 +1,6 @@
 .aboutmeSection {
   width: 80%;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,8 @@
   border-bottom: 1px solid var(--fontColor1);
   padding-bottom: 5px;
   margin-bottom: 50px;
+  font-family: var(--QuicksandFont);
+  font-weight: bolder;
 }
 .detail {
   display: flex;

@@ -1,0 +1,78 @@
+.experienceSection {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+.title {
+  font-size: clamp(30px, 5vw, 40px);
+  font-weight: 600;
+  font-family: var(--QuicksandFont);
+  font-weight: bolder;
+  color: var(--fontColor1);
+  border-bottom: 1px solid var(--fontColor1);
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+.jobSection {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.companySection {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  width: auto;
+  margin-right: 30px;
+}
+
+.company {
+  cursor: pointer;
+  padding: 6px 10px;
+  transition: border-left-color 0.3s ease;
+  color: var(--fontColor2);
+  font-family: var(--RobotoFont);
+  font-weight: bold;
+}
+
+.company:hover {
+  color: var(--fontColor1);
+}
+.company.active {
+  color: var(--fontColor1);
+  padding: 6px 10px 2px 10px;
+
+  border-bottom: 4px solid var(--fontColor1);
+}
+
+.jobDescriptionSection {
+  flex: 1;
+  font-family: var(--Inter);
+  color: var(--fontColor3);
+}
+.position {
+  font-size: 30px;
+}
+.duration {
+  font-size: 16px;
+}
+.descriptionSection {
+  font-size: 16px;
+}
+@media only screen and (max-width: 768px) {
+  .jobSection {
+    flex-direction: column;
+  }
+
+  .companySection {
+    order: -1;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+}
