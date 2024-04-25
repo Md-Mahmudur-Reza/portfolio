@@ -1,17 +1,17 @@
 .heroSection {
-  background-color: var(--bgColor1);
+  /* background-color: var(--bgColor1); */
   display: flex;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 70px);
   width: 100%;
-  color: var(--fontColor2);
+  color: var(--fontColor3);
   font-family: var(--Inter);
   font-size: 20px;
   font-weight: 500;
 }
 .innerheroSection {
-  background-color: white;
+  /* background-color: white; */
   padding: 30px 0px;
   width: 70%;
   margin: 0 auto;

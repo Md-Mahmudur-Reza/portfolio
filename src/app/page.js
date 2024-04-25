@@ -3,6 +3,7 @@ import Navbar from "../module/navbar/navbar";
 import Herosection from "../module/herosection/herosection";
 import AboutMe from "../module/aboutme/aboutMe";
 import Experience from "../module/experience/experience";
+import Projects from "../module/projects/projects";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Herosection />
       <AboutMe />
       <Experience />
+      <Projects />
 
       <div className={styles.socialMedia}></div>
       <div className={styles.body}></div>

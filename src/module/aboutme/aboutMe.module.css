@@ -26,7 +26,7 @@
 .detailsection {
   flex: 1;
   max-width: 50%;
-  color: var(--fontColor2);
+  color: var(--fontColor3);
   font-family: var(--Inter);
   font-size: 16px;
   font-weight: 500;
