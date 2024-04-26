@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
+``;
 import Image from "next/image";
 
 import logo from "../../../public/only_logo_transperant_border_bg.png";
@@ -11,6 +13,34 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
+  };
+
+  const scrollToHero = () => {
+    const otherSection = document.getElementById("hero");
+    otherSection.scrollIntoView({ behavior: "smooth" });
+  };
+  const scrollToAboutMe = () => {
+    const otherSection = document.getElementById("aboutme");
+    otherSection.scrollIntoView({ behavior: "smooth" });
+  };
+  const scrollToExperience = () => {
+    const otherSection = document.getElementById("experience");
+    otherSection.scrollIntoView({ behavior: "smooth" });
+  };
+  const scrollToWork = () => {
+    const otherSection = document.getElementById("work");
+    otherSection.scrollIntoView({ behavior: "smooth" });
+  };
+  const scrollToContact = () => {
+    const otherSection = document.getElementById("contact");
+    otherSection.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const router = useRouter();
+
+  const openResume = () => {
+    const pdfPath = "/Resume.pdf";
+    window.open(pdfPath, "_blank");
   };
   return (
     <nav className={styles.navbar}>
@@ -39,19 +69,29 @@ export default function Navbar() {
             id="navbarLinks"
           >
             <li>
-              <a className={styles.navbarText}>About</a>
+              <a onClick={scrollToAboutMe} className={styles.navbarText}>
+                About
+              </a>
             </li>
             <li>
-              <a className={styles.navbarText}>Experience</a>
+              <a onClick={scrollToExperience} className={styles.navbarText}>
+                Experience
+              </a>
             </li>
             <li>
-              <a className={styles.navbarText}>Work</a>
+              <a onClick={scrollToWork} className={styles.navbarText}>
+                Work
+              </a>
             </li>
             <li>
-              <a className={styles.navbarText}>Contact</a>
+              <a onClick={scrollToContact} className={styles.navbarText}>
+                Contact
+              </a>
             </li>
             <li>
-              <div className={styles.resumeButton}> Resume</div>
+              <div className={styles.resumeButton} onClick={openResume}>
+                Resume
+              </div>
             </li>
           </ul>
         </div>

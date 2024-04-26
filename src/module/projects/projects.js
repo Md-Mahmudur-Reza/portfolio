@@ -55,7 +55,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className={`${styles.projectSection}`}>
+    <div className={`${styles.projectSection}`} id="work">
       <h1 className={styles.title}>My Projects and Researches</h1>
       <div className={styles.innerProjectSection}>
         {projectObj.map((project, index) => (

@@ -2,9 +2,9 @@ import styles from "./herosection.module.css";
 
 export default function Herosection() {
   return (
-    <div className={styles.heroSection}>
+    <div className={styles.heroSection} id="hero">
       <div className={styles.innerheroSection}>
-        <div className={styles.introText}>Hi, my name is</div>
+        <div className={styles.introText}>Hi, I&apos;m</div>
         <div className={styles.nameText}>Reza.</div>
         <div className={styles.profText}>I build things for the web.</div>
         <div className={`${styles.detailsText}`}>

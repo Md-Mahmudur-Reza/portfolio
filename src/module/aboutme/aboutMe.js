@@ -1,18 +1,18 @@
 import Image from "next/image";
 
 import styles from "./aboutMe.module.css";
-import pic from "../../../public/logo.jpeg";
+import pic from "../../../public/Picture/Image.jpeg";
 
 export default function AboutMe() {
   return (
-    <div className={` ${styles.aboutmeSection}`}>
+    <div className={` ${styles.aboutmeSection}`} id="aboutme">
       <div className={styles.title}>About Me</div>
       <div className={styles.detail}>
         <div className={styles.detailsection}>
           <div className={styles.section}>
-            Hello! My name is Brittany and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes — turns out
+            Hello! My name is Md Mahmudur Reza and I enjoy creating things that
+            live on the internet. My interest in web development started back in
+            2012 when I decided to try editing custom Tumblr themes — turns out
             hacking together a custom reblog button taught me a lot about HTML &
             CSS!
           </div>

@@ -4,6 +4,7 @@ import Herosection from "../module/herosection/herosection";
 import AboutMe from "../module/aboutme/aboutMe";
 import Experience from "../module/experience/experience";
 import Projects from "../module/projects/projects";
+import Contact from "../module/contact/contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutMe />
       <Experience />
       <Projects />
+      <Contact />
 
       <div className={styles.socialMedia}></div>
       <div className={styles.body}></div>

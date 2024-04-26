@@ -61,12 +61,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .image {
   max-width: 70%;
   height: auto;
+  border-radius: 5px;
 }
 
 @media only screen and (max-width: 768px) {

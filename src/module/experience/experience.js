@@ -44,7 +44,7 @@ export default function Experience() {
   const selectedJob = jobObjects.find((obj) => obj.companyName === company);
 
   return (
-    <div className={`${styles.experienceSection}`}>
+    <div className={`${styles.experienceSection}`} id="experience">
       <h1 className={styles.title}>Where I’ve Worked</h1>
       <div className={styles.jobSection}>
         <div className={styles.companySection}>
