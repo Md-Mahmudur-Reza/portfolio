@@ -10,27 +10,42 @@ export default function AboutMe() {
       <div className={styles.detail}>
         <div className={styles.detailsection}>
           <div className={styles.section}>
-            Hello! My name is Md Mahmudur Reza and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
+            Hello! My name is Md Mahmudur Reza and I enjoy bringing ideas to
+            life through the realm of technology. My journey into the world of
+            computer began in 2008, when I encountered my first computer and I
+            immersed myself in into the fascinating intricacies of the internet.
+            It was then that I became captivated by the inner workings of the
+            web and embarked on creating my own websites, sparking my initial
+            interest in HTML and CSS.
           </div>
           <div className={styles.section}>
-            Fast-forward to today, and I’ve had the privilege of working at an
-            advertising agency, a start-up, a huge corporation, and a
-            student-led design studio. My main focus these days is building
-            accessible, inclusive products and digital experiences at
-            Upstatement for a variety of clients.
+            Driven by this curiosity, I pursued a Bachelor&apos;s degree in
+            Computer Science and Engineering, honing my skills and knowledge in
+            the field. Upon graduation, I transitioned into the professional
+            sphere, joining a tech company where I immersed myself in developing
+            both frontend and backend solutions for diverse clientele.
           </div>
           <div className={styles.section}>
-            Here are a few technologies I’ve been working with recently:
+            Currently, I&apos;m pursuing my Master&apos;s degree in Masters of
+            Applied Computing (MAC) at the University of Windsor, aiming to
+            expand my expertise further. I am eagerly seeking a CO-OP internship
+            opportunity that not only complements my academic pursuits but also
+            provides a platform to apply my skills and explore new horizons.
+          </div>
+          <div className={styles.section}>
+            Here are a few technologies I&apos;ve been working with recently:
           </div>
           <ul className={styles.techlist}>
             <li className={styles.techitem}>Python</li>
             <li className={styles.techitem}>JavaScript</li>
+            <li className={styles.techitem}>C</li>
+            <li className={styles.techitem}>GraphQL</li>
+            <li className={styles.techitem}>Bash Scripting</li>
             <li className={styles.techitem}>Django</li>
             <li className={styles.techitem}>NextJS</li>
+            <li className={styles.techitem}>Git</li>
+            <li className={styles.techitem}>MySQL</li>
+            <li className={styles.techitem}>Machine Learning</li>
           </ul>
         </div>
         <div className={styles.imagesection}>

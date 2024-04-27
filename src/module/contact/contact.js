@@ -7,7 +7,7 @@ export default function Contact() {
     <div className={styles.contactSection} id="contact">
       <h1 className={styles.title}>Get In Touch</h1>
       <div className={styles.contactText}>
-        Currently I&apos;m looking for CO-OP Intership. So if you think that I
+        Currently I&apos;m looking for CO-OP Internship. So if you think that I
         have the power of Superman to lift up your team please let me know, my
         inbox is alway open.
       </div>

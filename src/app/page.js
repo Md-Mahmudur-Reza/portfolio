@@ -5,6 +5,7 @@ import AboutMe from "../module/aboutme/aboutMe";
 import Experience from "../module/experience/experience";
 import Projects from "../module/projects/projects";
 import Contact from "../module/contact/contact";
+import Social from "../module/social/social";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Experience />
       <Projects />
       <Contact />
+      {/* <Social /> */}
 
       <div className={styles.socialMedia}></div>
       <div className={styles.body}></div>

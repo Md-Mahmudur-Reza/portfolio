@@ -11,11 +11,15 @@ export default function Projects() {
       projectName: "Farm Tech",
       projectType: "Academic Project",
       projectDescription: [
-        "A responsive portfolio website showcasing my projects and skills.",
-        "Built using React.js and styled with CSS modules.",
-        "Includes project descriptions, technologies used, and links.",
+        "A collaborative plateform that connects landowners with farmers, optimizes crop selection using data analytics, and reduces crops waste by providing Digital Storage Solution in Canadian agriculture.",
       ],
-      projectTech: ["Django", "Django Rest Framwork", "React.js"],
+      projectTech: [
+        "Django",
+        "Django Rest Framwork",
+        "React.js",
+        "PostgreSQL",
+        "Random Forest",
+      ],
       projectLinks: {
         Github: "https://github.com/Md-Mahmudur-Reza/farm_tech_backend",
         LiveDemo: "https://www.google.com",

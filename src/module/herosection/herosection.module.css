@@ -3,7 +3,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 70px);
+  /* height: calc(100vh - 70px); */
+  min-height: 100vh;
+  height: auto;
+  padding-top: 50px;
   width: 100%;
   color: var(--fontColor3);
   font-family: var(--Inter);

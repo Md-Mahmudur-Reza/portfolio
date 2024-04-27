@@ -11,9 +11,9 @@ export default function Experience() {
       position: "Jr. Software Engineer",
       workDuration: "August 2022 - July 2023",
       jobDescription: [
-        "Designed and implemented responsive user interfaces",
-        "Integrated RESTful APIs for data retrieval",
-        "Optimized website performance through code refactoring",
+        "End-to-end development of web applications, orchestrating both frontend interfaces and backend functionalities to deliver seamless user experiences.",
+        "Leveraged expertise in a diverse tech stack to architect, develop, and deploy scalable solutions, optimizing performance and maintaining code integrity.",
+        "Collaborated cross-functionally with teams to translate business requirements into technical solutions, driving innovation and delivering high-quality software products",
       ],
     },
     // {
