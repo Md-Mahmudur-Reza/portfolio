@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { useRouter } from "next/navigation";
-``;
 import Image from "next/image";
 
 import logo from "../../../public/only_logo_transperant_border_bg.png";
@@ -36,8 +34,6 @@ export default function Navbar() {
     otherSection.scrollIntoView({ behavior: "smooth" });
   };
 
-  const router = useRouter();
-
   const openResume = () => {
     const pdfPath = "/Resume.pdf";
     window.open(pdfPath, "_blank");
@@ -47,7 +43,7 @@ export default function Navbar() {
       <div className={styles.navbarContainer}>
         <div className={styles.navbarLeft}>
           <Image
-            // onClick={goHome}
+            onClick={scrollToHero}
             className={styles.logo}
             src={logo}
             alt="logo"

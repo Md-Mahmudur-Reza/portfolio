@@ -5,5 +5,45 @@
   left: 40px;
   right: auto;
   z-index: 10;
-  color: var(--light-slate);
+  color: var(--fontColor2);
+}
+
+.socialList {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  gap: 20px;
+}
+
+.socialList:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: var(--fontColor2);
+}
+.socialItem {
+  position: relative; /* Ensure proper positioning of the hover image */
+}
+
+.socialItem:hover .icon {
+  filter: invert(9%) sepia(37%) saturate(4430%) hue-rotate(190deg)
+    brightness(25%) contrast(108%);
+  cursor: pointer;
+}
+
+.icon {
+  height: 25px;
+  width: auto;
+}
+
+@media (max-width: 1080px) {
+  .socialSection {
+    display: none;
+  }
 }

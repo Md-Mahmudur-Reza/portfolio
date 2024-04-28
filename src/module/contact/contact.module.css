@@ -65,6 +65,30 @@
   text-decoration: none;
   color: inherit;
 }
+.socialSection {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .socialSection {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .socialItem {
+    /* background-color: yellow; */
+  }
+
+  .icon {
+    height: 25px;
+    width: auto;
+  }
+  .socialItem:hover .icon {
+    filter: invert(9%) sepia(37%) saturate(4430%) hue-rotate(190deg)
+      brightness(25%) contrast(108%);
+    cursor: pointer;
+  }
+}
 
 .footer {
   padding-top: 50px;

@@ -16,10 +16,7 @@ export default function Home() {
       <Experience />
       <Projects />
       <Contact />
-      {/* <Social /> */}
-
-      <div className={styles.socialMedia}></div>
-      <div className={styles.body}></div>
+      <Social />
     </main>
   );
 }

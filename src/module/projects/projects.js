@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import brownMan from "../../../public/project/brown_man.jpg";
+import brownMan from "../../../public/project/brown_man.png";
+import farmtech from "../../../public/project/farmtech.jpeg";
+import portfolio from "../../../public/project/portfolio.png";
 
 import styles from "./projects.module.css";
 
@@ -22,9 +24,9 @@ export default function Projects() {
       ],
       projectLinks: {
         Github: "https://github.com/Md-Mahmudur-Reza/farm_tech_backend",
-        LiveDemo: "https://www.google.com",
+        // LiveDemo: "https://www.google.com",
       },
-      projectImage: brownMan,
+      projectImage: farmtech,
     },
     {
       projectName: "Brown Man Printing",
@@ -49,12 +51,12 @@ export default function Projects() {
         "Built using Vue.js and Vuex for state management.",
         "Allows users to create, update, and delete tasks and projects.",
       ],
-      projectTech: ["Vue.js", "Vuex"],
+      projectTech: ["NexjJS"],
       projectLinks: {
-        Github: "https://github.com/your-username/task-manager",
-        LiveDemo: "https://your-task-manager-app.com",
+        Github: "https://github.com/Md-Mahmudur-Reza/portfolio",
+        LiveDemo: "https://md-mahmudur-reza.vercel.app/",
       },
-      projectImage: brownMan,
+      projectImage: portfolio,
     },
   ];
 
