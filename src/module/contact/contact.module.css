@@ -75,9 +75,8 @@
     justify-content: center;
     gap: 20px;
   }
-  .socialItem {
-    /* background-color: yellow; */
-  }
+  /* .socialItem {
+  } */
 
   .icon {
     height: 25px;

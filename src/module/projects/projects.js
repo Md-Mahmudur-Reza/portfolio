@@ -32,11 +32,9 @@ export default function Projects() {
       projectName: "Brown Man Printing",
       projectType: "Business Project",
       projectDescription: [
-        "An online store for selling various products.",
-        "Developed using MERN stack (MongoDB, Express.js, React.js, Node.js).",
-        "Includes features such as product catalog, shopping cart, and user authentication.",
+        "An online printing website to order for printing documents",
       ],
-      projectTech: ["MongoDB", "Express.js", "React.js", "Node.js"],
+      projectTech: ["NextJS"],
       projectLinks: {
         Github: "https://github.com/Md-Mahmudur-Reza/print-shop-frontend",
         LiveDemo: "https://brown-man-printing.vercel.app/",
@@ -46,11 +44,7 @@ export default function Projects() {
     {
       projectName: "Portfolio",
       projectType: "Personal Project",
-      projectDescription: [
-        "A web application for managing tasks and projects.",
-        "Built using Vue.js and Vuex for state management.",
-        "Allows users to create, update, and delete tasks and projects.",
-      ],
+      projectDescription: ["My portfolio website"],
       projectTech: ["NexjJS"],
       projectLinks: {
         Github: "https://github.com/Md-Mahmudur-Reza/portfolio",
