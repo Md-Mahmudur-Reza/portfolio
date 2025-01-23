@@ -26,11 +26,10 @@ export default function AboutMe() {
             both frontend and backend solutions for diverse clientele.
           </div>
           <div className={styles.section}>
-            Currently, I&apos;m pursuing my Master&apos;s degree in Masters of
-            Applied Computing (MAC) at the University of Windsor, aiming to
-            expand my expertise further. I am eagerly seeking a CO-OP internship
-            opportunity that not only complements my academic pursuits but also
-            provides a platform to apply my skills and explore new horizons.
+            I have successfully completed my Master&apos;s degree in Applied Computing (MAC) at the University of Windsor, 
+            equipping me with advanced technical skills and a strong foundation in software development. 
+            I am now eagerly seeking a full-time software engineering role that allows me to apply my expertise, 
+            contribute to innovative projects, and continue exploring new horizons.
           </div>
           <div className={styles.section}>
             Here are a few technologies I&apos;ve been working with recently:
