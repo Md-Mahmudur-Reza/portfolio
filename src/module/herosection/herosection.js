@@ -8,7 +8,7 @@ export default function Herosection() {
         <div className={styles.nameText}>Mahmud.</div>
         <div className={styles.profText}>A passionate software developer.</div>
         <div className={`${styles.detailsText}`}>
-        I'm a passionate software developer with hands-on experience across full-stack technologies. 
+        I&apos;m a passionate software developer with hands-on experience across full-stack technologies. 
         Eager to contribute my skills and dedication to a dynamic full-time software engineering role, 
         where I can drive innovation and create real-world impact.
         </div>
