@@ -7,6 +7,14 @@ export default function Experience() {
 
   const jobObjects = [
     {
+      companyName: "Q4e Institute",
+      position: "Full Stack Developer",
+      workDuration: "January 2025 - Present",
+      jobDescription: ["Designing and developing the institute’s public‑facing web platform with Next.js, Django and REST APIs, improving average page‑load time by 35%.",
+        "Collaborate with academic and marketing stakeholders to gather requirements, implement new features, and ensure WCAG‑compliant accessibility.",
+        "Provide operational support, deploy code via CI/CD pipelines, and document processes in Confluence."],
+    },
+    {
       companyName: "Grahoo",
       position: "Jr. Software Engineer",
       workDuration: "August 2022 - July 2023",
@@ -16,12 +24,6 @@ export default function Experience() {
         "Collaborated cross-functionally with teams to translate business requirements into technical solutions, driving innovation and delivering high-quality software products",
       ],
     },
-    // {
-    //   companyName: "A",
-    //   position: "UI/UX Designer",
-    //   workDuration: "June 2018 - December 2020",
-    //   jobDescription: ["Something 1", "Something 2", "Something 3"],
-    // },
     // {
     //   companyName: "GHI Technologies",
     //   position: "Full Stack Developer",
@@ -52,9 +54,8 @@ export default function Experience() {
             <div
               onClick={() => selectCompany(obj.companyName)}
               key={index}
-              className={`${styles.company} ${
-                obj.companyName === company ? styles.active : ""
-              }`}
+              className={`${styles.company} ${obj.companyName === company ? styles.active : ""
+                }`}
             >
               {obj.companyName}
             </div>
