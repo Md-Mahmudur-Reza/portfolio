@@ -3,12 +3,24 @@ import React, { useState, useEffect } from "react";
 import styles from "./experience.module.css";
 
 export default function Experience() {
-  const [company, setCompany] = useState("Grahoo");
+  const [company, setCompany] = useState("Sutherland Global Service");
 
   const jobObjects = [
     {
+      companyName: "Sutherland Global Service",
+      position: "Associate-Technology",
+      workDuration: "June 2025 - Present",
+      jobDescription: [
+        "Diagnose, troubleshoot, and resolve basic to advanced technical issues, ensuring minimal downtime and customer satisfaction.",
+        "Collaborated with cross-functional teams and utilized customer service platforms to track, document, and manage technical cases effectively.",
+        "Analyzed recurring technical problems and provided feedback for process improvement, contributing to better system performance and user experience",
+        "Developed a deep understanding of technical systems and client-facing applications, enhancing skills in debugging, issue reproduction, and root cause analysis",
+        "Worked with performance metrics and SLAs, building experience in delivering reliable, quality-driven technical solutions"
+      ],
+    },
+    {
       companyName: "Q4e Institute",
-      position: "Full Stack Developer",
+      position: "Full Stack Developer (Remote | Part-time)",
       workDuration: "January 2025 - Present",
       jobDescription: ["Designing and developing the institute’s public‑facing web platform with Next.js, Django and REST APIs, improving average page‑load time by 35%.",
         "Collaborate with academic and marketing stakeholders to gather requirements, implement new features, and ensure WCAG‑compliant accessibility.",
