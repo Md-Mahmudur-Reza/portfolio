@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
+import khaodao from "../../../public/project/khaodao.png";
 import brownMan from "../../../public/project/brown_man.png";
 import farmtech from "../../../public/project/farmtech.jpeg";
 import portfolio from "../../../public/project/portfolio.png";
@@ -9,6 +10,27 @@ import styles from "./projects.module.css";
 
 export default function Projects() {
   const projectObj = [
+    {
+      projectName: "KhaoDao",
+      projectType: "Work Project",
+      projectDescription: [
+        "KhaoDao is a popular online food and grocery delivery platform. Through its mobile app or website, you can browse local restaurant menus, place an order, and have it delivered directly to your door by an independent driver",
+      ],
+      projectTech: [
+        "Django",
+        "Django Rest Framwork",
+        "NextJS",
+        "PostgreSQL",
+        "RestAPI",
+        "GraphQL",
+        "TailwindCSS"
+      ],
+      projectLinks: {
+        // Github: "https://github.com/Md-Mahmudur-Reza/farm_tech_backend",
+        Website: "https://khaodao.com/",
+      },
+      projectImage: khaodao,
+    },
     {
       projectName: "Farm Tech",
       projectType: "Academic Project",
@@ -24,7 +46,7 @@ export default function Projects() {
       ],
       projectLinks: {
         Github: "https://github.com/Md-Mahmudur-Reza/farm_tech_backend",
-        // LiveDemo: "https://www.google.com",
+        // Website: "https://www.google.com",
       },
       projectImage: farmtech,
     },
@@ -37,7 +59,7 @@ export default function Projects() {
       projectTech: ["NextJS"],
       projectLinks: {
         Github: "https://github.com/Md-Mahmudur-Reza/print-shop-frontend",
-        LiveDemo: "https://brown-man-printing.vercel.app/",
+        Website: "https://brown-man-printing.vercel.app/",
       },
       projectImage: brownMan,
     },
@@ -48,7 +70,7 @@ export default function Projects() {
       projectTech: ["NexjJS"],
       projectLinks: {
         Github: "https://github.com/Md-Mahmudur-Reza/portfolio",
-        LiveDemo: "https://md-mahmudur-reza.vercel.app/",
+        Website: "https://md-mahmudur-reza.vercel.app/",
       },
       projectImage: portfolio,
     },
@@ -56,7 +78,7 @@ export default function Projects() {
 
   return (
     <div className={`${styles.projectSection}`} id="work">
-      <h1 className={styles.title}>My Projects and Researches</h1>
+      <h1 className={styles.title}>My Projects and Contributions</h1>
       <div className={styles.innerProjectSection}>
         {projectObj.map((project, index) => (
           <div key={index} className={styles.project}>

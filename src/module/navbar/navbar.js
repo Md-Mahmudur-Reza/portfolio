@@ -35,7 +35,7 @@ export default function Navbar() {
   };
 
   const openResume = () => {
-    const pdfPath = "/Resume.pdf";
+    const pdfPath = "/Frontend_Resume.pdf";
     window.open(pdfPath, "_blank");
   };
   return (
