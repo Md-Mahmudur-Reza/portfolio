@@ -23,12 +23,12 @@ export default function AboutMe() {
             Computer Science and Engineering, honing my skills and knowledge in
             the field. Upon graduation, I transitioned into the professional
             sphere, joining a tech company where I immersed myself in developing
-            both frontend and backend solutions for diverse clientele.
+            both frontend and backend solutions for diverse clients.
           </div>
           <div className={styles.section}>
-            I have successfully completed my Master&apos;s degree in Applied Computing (MAC) at the University of Windsor, 
-            equipping me with advanced technical skills and a strong foundation in software development. 
-            I am now eagerly seeking a full-time software engineering role that allows me to apply my expertise, 
+            I have successfully completed my Master&apos;s degree in Applied Computing (MAC) at the University of Windsor,
+            equipping me with advanced technical skills and a strong foundation in software development.
+            I am now eagerly seeking a full-time software engineering role that allows me to apply my expertise,
             contribute to innovative projects, and continue exploring new horizons.
           </div>
           <div className={styles.section}>
@@ -36,15 +36,17 @@ export default function AboutMe() {
           </div>
           <ul className={styles.techlist}>
             <li className={styles.techitem}>Python</li>
-            <li className={styles.techitem}>JavaScript</li>
-            <li className={styles.techitem}>C</li>
-            <li className={styles.techitem}>GraphQL</li>
-            <li className={styles.techitem}>Bash Scripting</li>
             <li className={styles.techitem}>Django</li>
-            <li className={styles.techitem}>NextJS</li>
-            <li className={styles.techitem}>Git</li>
+            <li className={styles.techitem}>RestAPI</li>
+            <li className={styles.techitem}>GraphQL</li>
             <li className={styles.techitem}>MySQL</li>
-            <li className={styles.techitem}>Machine Learning</li>
+            <li className={styles.techitem}>PostgreSQL</li>
+            <li className={styles.techitem}>JavaScript</li>
+            <li className={styles.techitem}>TypeScript</li>
+            <li className={styles.techitem}>NextJS</li>
+            <li className={styles.techitem}>React</li>
+            <li className={styles.techitem}>Bash Scripting</li>
+            <li className={styles.techitem}>Git</li>
           </ul>
         </div>
         <div className={styles.imagesection}>

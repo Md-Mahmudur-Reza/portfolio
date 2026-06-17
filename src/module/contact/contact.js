@@ -15,8 +15,8 @@ export default function Contact() {
     <div className={styles.contactSection} id="contact">
       <h1 className={styles.title}>Get In Touch</h1>
       <div className={styles.contactText}>
-        I am currently seeking a full-time software engineering role where I can leverage my skills and 
-        contribute to impactful projects. If my experience aligns with your team&apos;s needs, feel free to reach 
+        I am currently seeking a full-time software developer role where I can leverage my skills and
+        contribute to impactful projects. If my experience aligns with your team&apos;s needs, feel free to reach
         out—I&apos;m always open to new opportunities and collaborations.
 
 
