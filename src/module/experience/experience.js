@@ -21,7 +21,7 @@ export default function Experience() {
     {
       companyName: "Q4e Institute",
       position: "Full Stack Developer (Remote | Part-time)",
-      workDuration: "January 2025 - Present",
+      workDuration: "January 2025 - June 2025",
       jobDescription: ["Designing and developing the institute’s public‑facing web platform with Next.js, Django and REST APIs, improving average page‑load time by 35%.",
         "Collaborate with academic and marketing stakeholders to gather requirements, implement new features, and ensure WCAG‑compliant accessibility.",
         "Provide operational support, deploy code via CI/CD pipelines, and document processes in Confluence."],
